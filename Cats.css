@@ -20,12 +20,41 @@ li a:hover {
 	text-decoration: none;
 }
 
+
 h1 {
 	/*font-family: kraftnine;
 	font-size:200px;*/
 	text-align:center;
 	margin:-10px;
 
+}
+
+h2 {
+	font-family:kg happy solid;
+	font-size:40px;
+	margin:10px;
+	color:#430000;
+	padding-bottom:-20px;
+	/*padding:-30px;*/
+	text-align:center;
+
+}
+
+.catimages {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.catimages img {
+	width: 225px;
+	height: 200px;
+}
+
+.gallery {
+	width: 80%;
+	height: 525px;
+	margin: 0 auto;
 }
 
 /* p {
@@ -131,6 +160,7 @@ div.absolute {
 .centerFix:hover {
 	background-color:yellow;
 }
+
 
 /*.center {
 	margin: 0 auto;
