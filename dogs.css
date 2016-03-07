@@ -149,12 +149,21 @@ div.absolute {
 }
 
 .video {
-	display: block;
-	margin: 0 auto;
-	width:30%;
+	text-align:center;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
 }
 
 .forms {
 	font-size:60px;
 	text-align:center;
+}
+
+.ending {
+	background-color:white;
+	opacity:.7;
+	margin:30px;
 }

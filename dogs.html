@@ -16,15 +16,15 @@
 				<ul class="nav">
 				  <li><a href="home.html">Home</a></li>
 				  <li><a href="about.html">Cats</a></li>
-				  <li><a href="contact.html">Dogs </a></li>
+				  <li><a href="dogs.html">Dogs </a></li>
 				  <li><a href="/contact/">Contact</a></li> 
 				</ul>
 				
 
-					<img class="images" src="puppies.jpg">
-					<img class="images" src="puppies.jpg">
-					<img class="images" src="puppies.jpg">
-					<img class="images" src="puppies.jpg">
+					<img class="image1.jpg" src="puppies.jpg">
+					<img class="image2.jpg" src="puppies.jpg">
+					<img class="image3.jpg" src="puppies.jpg">
+					<img class="image4.jpg" src="puppies.jpg">
 					<br>
 
 
@@ -33,10 +33,10 @@
 				<br>
 
 
-					<img class="images" src="puppies.jpg">
-					<img class="images" src="puppies.jpg">
-					<img class="images" src="puppies.jpg">
-					<img class="images" src="puppies.jpg">
+					<img class="image5.jpg" src="puppies.jpg">
+					<img class="image6.jpg" src="puppies.jpg">
+					<img class="image7.jpg" src="puppies.jpg">
+					<img class="image8.jpg" src="puppies.jpg">
 					<br>
 
 				<h3> "If You're Not First You're Last" <br>
@@ -60,13 +60,12 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ommodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillumproident, sunt in culpa qui officia deserunt mollit anim id est laborum. ommodo
-				 </p>  <br>
-						<div class="video">
+				 </p>  
+				 <br>
+					<div class="video">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/GF60Iuh643I" frameborder="0" allowfullscreen> </iframe>
-						</div>
-						<br>
-
-				<p>
+					</div>
+				<br>
 
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -78,40 +77,45 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
 
-				<h3> Feedback for the Webmasters </h3>
+		<div class="ending">
 
-			<div class="forms">
+			<h3> Feedback for the Webmasters </h3>
+
+				<div class="forms">
 
 			<form action="http://www.example.com/comments.php">
-		<p> Which dog is the best dog ever and why? </p>
-		<textarea name="comments" cols="20" rows="4"> No pressure </textarea> <br>
+			<p> Which dog is the best dog ever and why? </p>
+			<textarea name="comments" cols="20" rows="4"> No pressure </textarea> <br>
 
 
-	<form action="http://www.example.com/comments.php">
-		<p> Dogs vs. CATS || Who wins and why? </p>
-		<textarea name="comments" cols="20" rows="4"> Answer carefully </textarea> <br>
+			<form action="http://www.example.com/comments.php">
+			<p> Dogs vs. CATS || Who wins and why? </p>
+			<textarea name="comments" cols="20" rows="4"> Answer carefully </textarea> <br>
 
 
-		<form action="http://www.example.com/profile.php">
-		<p> Please select your favorite famous puppy:
-		<br/>
-		<input type="radio" name="katie" value "Katy" checked="checked" /> TinTin
-		<input type="radio" name="katie" value "Kati" checked="checked" /> KuJO
-		<input type="radio" name="katie" value "KT" checked="checked" /> Alf
-		</p>
-		</form>
+			<form action="http://www.example.com/profile.php">
+			<p> Please select your favorite famous puppy:
+			<br/>
+			<input type="radio" name="katie" value "Katy" checked="checked" /> TinTin
+			<input type="radio" name="katie" value "Kati" checked="checked" /> KuJO
+			<input type="radio" name="katie" value "KT" checked="checked" /> Alf
+			</p>
+			<br>
+			</form>
+			
 
-		<form action="http://www.example.com/profile.php">
-		<p> Please select your cat:
-		<br/>
-		<input type="radio" name="katie" value "No-ah" checked="checked" /> Garfield
-		<input type="radio" name="katie" value "Noer" checked="checked" /> Simba
-		<input type="radio" name="katie" value "NoAH" checked="checked" /> Scar
-		</p>
-		</form>
+			<form action="http://www.example.com/profile.php">
+			<p> Please select your cat:
+			<br/>
+			<input type="radio" name="katie" value "No-ah" checked="checked" /> Garfield
+			<input type="radio" name="katie" value "Noer" checked="checked" /> Simba
+			<input type="radio" name="katie" value "NoAH" checked="checked" /> Scar
+			</p>
+			</form>
+			<br>
 	
-		<div>
-		<br>
+			</div>
+		</div>
 <!--  -->
 
 <script>
@@ -119,13 +123,15 @@
 
 $(document).ready(function(){
 	
-	alert("Cutness Overload");
+	
 
 	$("h1").fadeOut(1000);
 	$("h1").show( function(){
 		$("h1").animate( {opacity: 1} ) 
 	})
 });
+
+alert("Cutness Overload");
 
 // $("h2").fadeIn(2000);
 // $("h2").show( function()
