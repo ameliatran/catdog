@@ -1,0 +1,165 @@
+.all {
+	background-image:url("home.jpg");
+	font-family:futura;
+}
+
+
+h1 {
+	/*font-family: kraftnine;
+	font-size:200px;*/
+	text-align:center;
+	margin:-10px;
+
+}
+
+h2 {
+	font-family:kg happy solid;
+	font-size:80px;
+	margin:10px;
+	color:#430000;
+	/*padding-bottom:20px;*/
+	/*padding:-30px;*/
+	text-align:center;
+
+
+}
+
+
+ h3 {
+	font-family:kg happy solid;
+	font-size:40px;
+	margin:10px;
+	color:#430000;
+	/*padding-bottom:20px;*/
+	/*padding:-30px;*/
+	text-align:center;
+
+
+}
+
+p {
+		margin: auto;
+   		 width: 35%;
+		font-size: 24px;
+		font-family:futura;
+		/*padding:20px;
+		padding-right:-20px;
+		margin:-10;
+		text-align:center;*/
+	}
+
+  .katie {
+  	float:right;
+  	width:65%;
+  	padding:5px;
+	}
+
+.images {
+	float: left;  
+	display:inline;
+	width:24%;
+	margin-right:5px;
+	margin-bottom:5px;
+	padding-top:20px;
+	padding-bottom:15px;
+
+	}
+
+	
+
+	
+
+.centered {
+	font-size:30px;
+       text-align: center; 
+       list-style-position:inside;
+       list-style-type: upper-roman;
+    }
+
+
+div.absolute {
+    position: fixed;
+    bottom: 20px;
+    right: 200px;
+    left:0;
+    top:20px;
+    width: 20px;
+    
+}
+.nav{
+	font-color:white;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: futura;
+    padding:10px;
+  	font-size: 35px;
+	background-color:#f7ae2b;
+}
+.nav li{
+	text-align:center;
+	color:white;
+	font-family: futura;
+    display:inline;
+}
+
+li a:hover {
+	text-transform: uppercase;
+}
+
+.nav a{
+	color:white;
+    display:inline-block;
+    font-family: futura;
+    padding:20px;
+}
+
+
+.center {
+	margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+.button {
+		display:block;
+		font-size:40px;
+		padding:20px;
+		background-color:#f7ae2b;
+		width:400px;
+		text-align: center;
+		border-radius:20px;
+		}
+
+.button:hover {
+		background-color:yellow;
+			}
+
+/*.jav{
+	padding:40px;
+	background-color:coral;
+			}*/
+
+.navbar{
+	clear:left;
+	font-color:white;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: futura;
+    padding:25px;
+  	font-size: 35px;
+	background-color:#f7ae2b;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width:30%;
+}
+
+.forms {
+	font-size:60px;
+	text-align:center;
+}

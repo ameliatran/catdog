@@ -1,0 +1,161 @@
+.all {
+	font-family:futura;
+    background-size: 100% 100%;
+   	width: 100%; 
+   	height: auto;
+   	margin: 0 auto;
+}
+
+body {
+	background-image: url("home.jpg");
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a:hover {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h1 {
+	/*font-family: kraftnine;
+	font-size:200px;*/
+	text-align:center;
+	margin:-10px;
+
+}
+
+/* p {
+	margin: auto;
+   	width: 65%;
+	font-size: 40px;
+	font-family:futura;
+	/*padding:20px;
+	padding-right:-20px;
+	margin:-10;
+	ext-align:center;
+
+}*/
+
+/*.images {
+	float: left; 
+	padding: 10px;
+	padding-top:15px; 
+	padding-bottom:10px;
+	width:33%;
+}*/
+
+/* .centered {
+	font-size:30px;
+    text-align: center; 
+    list-style-position:inside;
+    list-style-type: upper-roman;
+}
+
+
+div.absolute {
+    position: fixed;
+    bottom: 20px;
+    right: 200px;
+    left:0;
+    top:20px;
+    width: 20px;
+    
+}*/
+
+.nav {
+	font-color: white;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    font-family: futura;
+    padding: 5px;
+  	font-size: 45px;
+	background-color: #f7ae2b;
+	text-decoration: none;
+}
+
+/*.navbar {
+	clear:left;
+	font-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: futura;
+    padding: 25px;
+  	font-size: 35px;
+	background-color: #f7ae2b;
+}*/
+
+.nav li {
+	text-align: center;
+	color:white;
+	font-family: futura;
+    display: inline;
+    text-decoration: none;
+}
+
+.nav a {
+	color: white;
+    display: inline-block;
+    font-family: futura;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.center {
+	margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.centerFix {
+	display: block;
+	font-size: 20px;
+	padding: 15px;
+	background-color: #f7ae2b;
+	width: 200px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.centerFix a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.centerFix:hover {
+	background-color:yellow;
+}
+
+/*.center {
+	margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+}
+.centerFix {
+	width: 100%;
+}
+
+.button {
+	font-size:15px;
+	padding:20px;
+	background-color:#f7ae2b;
+	text-align: center;
+	border-radius:20px;
+
+}
+
+.button:hover {
+	background-color:yellow;
+}
+
+/*.jav{
+	padding:40px;
+	background-color:coral;
+			}*/
+
