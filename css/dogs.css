@@ -1,7 +1,25 @@
 .all {
-	background-image:url("home.jpg");
 	font-family:futura;
+    background-size: 100% 100%;
+   	width: 100%; 
+   	height: auto;
+   	margin: 0 auto;
 }
+
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a:hover {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 
 h1 {
 	/*font-family: kraftnine;
@@ -13,23 +31,34 @@ h1 {
 
 h2 {
 	font-family:kg happy solid;
-	font-size:60px;
+	font-size:80px;
 	margin:10px;
 	color:#430000;
-	padding-bottom:-20px;
-	padding:-30px;
-	text-align:50%;
-	clear:both;
+	/*padding-bottom:20px;*/
+	/*padding:-30px;*/
 	text-align:center;
-	
+
+
+}
+
+
+ h3 {
+	font-family:kg happy solid;
+	font-size:40px;
+	margin:10px;
+	color:#430000;
+	/*padding-bottom:20px;*/
+	/*padding:-30px;*/
+	text-align:center;
+
+
 }
 
 p {
 		margin: auto;
-   		text-align:center;
+   		 width: 35%;
 		font-size: 16px;
 		font-family:futura;
-		width:70%;
 		/*padding:20px;
 		padding-right:-20px;
 		margin:-10;
@@ -45,15 +74,17 @@ p {
 .images {
 	float: left;  
 	display:inline;
-	width:32%;
+	width:24%;
 	margin-right:5px;
 	margin-bottom:5px;
 	padding-top:20px;
 	padding-bottom:15px;
 
 	}
+
 	
 
+	
 
 .centered {
 	font-size:30px;
@@ -79,7 +110,7 @@ div.absolute {
     padding:0;
     text-align:center;
     font-family: futura;
-    padding:25px;
+    padding:10px;
   	font-size: 35px;
 	background-color:#f7ae2b;
 }
@@ -93,7 +124,7 @@ div.absolute {
 	color:white;
     display:inline-block;
     font-family: futura;
-    padding:30px;
+    padding:20px;
 }
 
 
@@ -102,32 +133,26 @@ div.absolute {
     width: 25%;
     padding: 10px;
 }
-
-/*.shape {
-	width:200px;
-	height:200px;
-	background-color:#f7ae2b;
-}*/
-
 .button {
+		display:block;
+		font-size:40px;
+		padding:20px;
 		background-color:#f7ae2b;
+		width:400px;
 		text-align: center;
-		display: block;
-    	margin-left: auto;
-    	margin-right: auto;
-    	clear:left;
-    	padding:50px;
-    	font-size:25px;
+		border-radius:20px;
 		}
-
 
 .button:hover {
 		background-color:yellow;
 			}
 
+/*.jav{
+	padding:40px;
+	background-color:coral;
+			}*/
 
-
-/*.navbar{
+.navbar{
 	clear:left;
 	font-color:white;
     list-style:none;
@@ -138,4 +163,24 @@ div.absolute {
     padding:25px;
   	font-size: 35px;
 	background-color:#f7ae2b;
-}*/
+}
+
+.video {
+	text-align:center;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+}
+
+.forms {
+	font-size:60px;
+	text-align:center;
+}
+
+.ending {
+	background-color:white;
+	opacity:.7;
+	margin:30px;
+}
